@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Birch Craft Barbering — 795 E St. George Blvd, St. George, UT 84770. Call (435) 229-5040 or book online at Vagaro.">
+  <title>Contact | Birch Craft Barbering</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .contact-info-card { background:var(--charcoal); border:1px solid #2a2a25; border-radius:var(--radius); padding:1.5rem; margin-bottom:1rem; transition:border-color 0.18s; }
+    .contact-info-card:hover { border-color:rgba(212,184,150,0.3); }
+    .contact-info-card-label { font-size:0.7rem; font-weight:600; letter-spacing:0.14em; text-transform:uppercase; color:var(--tan); margin-bottom:0.5rem; }
+    .contact-info-card-value { font-family:var(--font-serif); font-size:1.1rem; color:var(--white); line-height:1.55; }
+    .contact-info-card-value a { transition:color 0.18s; }
+    .contact-info-card-value a:hover { color:var(--tan); }
+    .booking-option { display:flex; align-items:center; gap:1.25rem; background:var(--charcoal); border:1px solid #2a2a25; border-radius:var(--radius); padding:1.25rem 1.5rem; margin-bottom:0.75rem; transition:border-color 0.18s; }
+    .booking-option:hover { border-color:rgba(212,184,150,0.3); }
+    .booking-option-icon { width:44px; height:44px; border-radius:50%; background:rgba(44,62,45,0.4); border:1px solid rgba(212,184,150,0.15); display:flex; align-items:center; justify-content:center; flex-shrink:0; color:var(--tan); }
+    .booking-option-text h4 { font-family:var(--font-sans); font-size:0.9rem; font-weight:600; color:var(--white); margin-bottom:0.15rem; }
+    .booking-option-text p { font-size:0.8rem; color:var(--grey); max-width:100%; }
+    .booking-option-text a { font-size:0.8rem; color:var(--tan); transition:color 0.18s; }
+    .booking-option-text a:hover { color:var(--light-tan); }
+  </style>
+</head>
+<body>
+<nav>
+  <div class="container nav-inner">
+    <a class='nav-logo' href='/'>Birch Craft Barbering</a>
+    <ul class="nav-links">
+      <li><a href='/'>Home</a></li><li><a href='/about'>About</a></li><li><a href='/services'>Services</a></li><li><a href='/gallery'>Gallery</a></li><li><a href='/barbers'>Our Barbers</a></li>
+      <li><a class='active' href='/contact'>Contact</a></li>
+    </ul>
+    <a href="https://www.vagaro.com/birchcraftbarbering" class="btn btn-burgundy nav-cta" target="_blank" rel="noopener">Book Now</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="nav-mobile-drawer" id="mobileDrawer">
+  <a href='/'>Home</a><a href='/about'>About</a><a href='/services'>Services</a>
+  <a href='/gallery'>Gallery</a><a href='/barbers'>Our Barbers</a><a href='/contact'>Contact</a>
+  <a href="https://www.vagaro.com/birchcraftbarbering" class="btn btn-burgundy" target="_blank" rel="noopener">Book Now</a>
+</div>
+<section class="page-hero">
+  <div class="container">
+    <div class="page-hero-content">
+      <span class="hero-eyebrow">795 E St. George Blvd &mdash; St. George, UT 84770</span>
+      <h1>Find Us</h1>
+      <p class="page-hero-sub">Come In. Get Crafted.</p>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="grid-2" style="gap:4rem; align-items:start;">
+      <div>
+        <span class="section-label">Contact &amp; Location</span>
+        <span class="tan-bar"></span>
+        <h2 style="margin-bottom:2rem;">Get In Touch</h2>
+        <div class="contact-info-card"><div class="contact-info-card-label">Address</div><div class="contact-info-card-value">795 E St. George Blvd<br>St. George, UT 84770</div></div>
+        <div class="contact-info-card"><div class="contact-info-card-label">Phone</div><div class="contact-info-card-value"><a href="tel:4352295040">(435) 229-5040</a></div></div>
+        <div class="contact-info-card"><div class="contact-info-card-label">Instagram</div><div class="contact-info-card-value"><a href="https://www.instagram.com/birchcraftbarbering/" target="_blank" rel="noopener">@birchcraftbarbering</a></div></div>
+        <div class="contact-info-card"><div class="contact-info-card-label">Hours</div><div class="contact-info-card-value">Tuesday &ndash; Saturday<br><span style="font-size:0.9rem; color:var(--grey);">Hours to be confirmed &mdash; call <a href="tel:4352295040" style="color:var(--tan);">(435) 229-5040</a> or check Vagaro when booking.</span></div></div>
+        <div class="walk-in-banner" style="margin-top:1.5rem;">
+          <h4>Walk-Ins Welcome. Appointments Preferred.</h4>
+          <p>Come in during open hours and we'll fit you in. For a guaranteed spot with your preferred barber, book ahead on Vagaro.</p>
+        </div>
+        <a href="https://maps.google.com/?q=795+E+St+George+Blvd+St+George+UT+84770" target="_blank" rel="noopener" class="map-placeholder" style="margin-top:1.5rem;">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="color:rgba(212,184,150,0.4);"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+          <div class="map-label">View on Google Maps</div>
+          <div class="map-address">795 E St. George Blvd<br>St. George, UT 84770</div>
+        </a>
+      </div>
+      <div>
+        <span class="section-label">How to Book</span>
+        <span class="tan-bar"></span>
+        <h2 style="margin-bottom:2rem;">Book Your Visit</h2>
+        <div class="booking-option">
+          <div class="booking-option-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div>
+          <div class="booking-option-text"><h4>Book on Vagaro</h4><p>Choose your barber, select your service, and pick a time. Recommended for appointments.</p><a href="https://www.vagaro.com/birchcraftbarbering" target="_blank" rel="noopener">vagaro.com/birchcraftbarbering &rarr;</a></div>
+        </div>
+        <div class="booking-option">
+          <div class="booking-option-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.68A2 2 0 012 .18h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92v2z"/></svg></div>
+          <div class="booking-option-text"><h4>Call Us</h4><p>Speak directly with the shop. Best for questions about services or hours.</p><a href="tel:4352295040">(435) 229-5040</a></div>
+        </div>
+        <div class="booking-option">
+          <div class="booking-option-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 21v-2a4 4 0 00-4-4H6a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg></div>
+          <div class="booking-option-text"><h4>Walk In</h4><p>Come in during open hours. We'll get you in the chair. No appointment needed.</p><span style="font-size:0.8rem; color:var(--grey);">Tue&ndash;Sat &mdash; hours TBD, call to confirm</span></div>
+        </div>
+        <div style="margin-top:2.5rem; padding:2rem; background:var(--charcoal); border:1px solid #2a2a25; border-radius:var(--radius);">
+          <h3 style="font-size:1.5rem; margin-bottom:0.5rem;">Send a Message</h3>
+          <p style="font-size:0.875rem; color:var(--grey); margin-bottom:1.5rem; max-width:100%;">For general questions about services, pricing, or the shop &mdash; we'll get back to you as soon as we can.</p>
+          <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)">
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+              <div class="form-group"><label for="firstName">First Name</label><input type="text" id="firstName" name="firstName" placeholder="Your first name" required></div>
+              <div class="form-group"><label for="lastName">Last Name</label><input type="text" id="lastName" name="lastName" placeholder="Your last name"></div>
+            </div>
+            <div class="form-group"><label for="email">Email Address</label><input type="email" id="email" name="email" placeholder="your@email.com" required></div>
+            <div class="form-group"><label for="phone">Phone (optional)</label><input type="tel" id="phone" name="phone" placeholder="(435) 000-0000"></div>
+            <div class="form-group"><label for="subject">Subject</label><select id="subject" name="subject"><option value="">Select a topic...</option><option value="booking">Booking Question</option><option value="services">Services &amp; Pricing</option><option value="hours">Hours &amp; Location</option><option value="general">General Inquiry</option></select></div>
+            <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" placeholder="Tell us what's on your mind..." required></textarea></div>
+            <button type="submit" class="btn btn-burgundy" style="width:100%;">Send Message</button>
+          </form>
+          <div id="formSuccess" style="display:none; text-align:center; padding:2rem 0;">
+            <span class="tan-bar tan-bar--center" style="margin-bottom:1.25rem;"></span>
+            <h3 style="margin-bottom:0.5rem;">Message Received</h3>
+            <p style="color:var(--grey); font-size:0.9rem; max-width:100%;">Thanks for reaching out. We'll be in touch soon &mdash; or feel free to call us at <a href="tel:4352295040" style="color:var(--tan);">(435) 229-5040</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section style="background:var(--charcoal); border-top:1px solid #2a2a25; border-bottom:1px solid #2a2a25; padding:2.5rem 0;">
+  <div class="container">
+    <div class="walk-in-banner" style="max-width:760px; margin:0 auto;">
+      <h4>Serving Our Community</h4>
+      <p>Birch Craft Barbering proudly serves St. George locals, Utah Tech students, and visitors exploring Zion National Park and Snow Canyon. Whether you're a regular or passing through &mdash; you're welcome in our chairs.</p>
+    </div>
+  </div>
+</section>
+<section class="section cta-section">
+  <div class="container">
+    <span class="tan-bar tan-bar--center" style="margin-bottom:1.5rem;"></span>
+    <h2>Ready to Book?</h2>
+    <p>Come in or book online. We're ready when you are.</p>
+    <div class="cta-btns">
+      <a href="https://www.vagaro.com/birchcraftbarbering" class="btn btn-burgundy" target="_blank" rel="noopener">Book on Vagaro</a>
+      <a class='btn btn-tan' href='/barbers'>Meet the Barbers</a>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><a class='nav-logo' href='/'>Birch Craft Barbering</a><p>Traditional Barbering. Modern Craft.</p><p>St. George's Premier Barbershop &mdash; Est. 2023</p><p style="margin-top:0.75rem;"><a href="https://www.instagram.com/birchcraftbarbering/" target="_blank" rel="noopener" style="color:var(--tan);">@birchcraftbarbering</a></p></div>
+      <div class="footer-col"><h4>Navigate</h4><ul><li><a href='/'>Home</a></li><li><a href='/about'>About</a></li><li><a href='/services'>Services</a></li><li><a href='/gallery'>Gallery</a></li><li><a href='/barbers'>Our Barbers</a></li><li><a href='/contact'>Contact</a></li></ul></div>
+      <div class="footer-col"><h4>Visit</h4><address>795 E St. George Blvd<br>St. George, UT 84770<br><br><a href="tel:4352295040">(435) 229-5040</a><br><br>Tue&ndash;Sat | Hours TBD</address></div>
+      <div class="footer-col"><h4>Book</h4><a href="https://www.vagaro.com/birchcraftbarbering" class="btn btn-burgundy" target="_blank" rel="noopener" style="margin-bottom:1rem; display:inline-block;">Book on Vagaro</a><p style="font-size:0.8rem; color:var(--grey); margin-top:1rem;">Walk-ins welcome.<br>Appointments preferred.</p></div>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2025 Birch Craft Barbering. All rights reserved.</p><a href="https://www.instagram.com/birchcraftbarbering/" target="_blank" rel="noopener">Instagram: @birchcraftbarbering</a></div>
+  </div>
+</footer>
+<style>
+@media (max-width: 768px) {
+  .section > .container > div[style*="grid-template-columns:1fr 1fr"]:not(.booking-option) { grid-template-columns: 1fr !important; }
+  #contactForm > div[style*="grid-template-columns"] { grid-template-columns: 1fr !important; }
+}
+</style>
+<script>
+  const toggle = document.getElementById('navToggle');
+  const drawer = document.getElementById('mobileDrawer');
+  toggle.addEventListener('click', function() { toggle.classList.toggle('open'); drawer.classList.toggle('open'); });
+  function handleSubmit(e) {
+    e.preventDefault();
+    var form = document.getElementById('contactForm');
+    var success = document.getElementById('formSuccess');
+    form.style.display = 'none';
+    success.style.display = 'block';
+  }
+</script>
+</body>
+</html>
